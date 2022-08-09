@@ -16,6 +16,14 @@ body {
     vertical-align: middle;
 }
 
+#inputWeight {
+    width: 300px;
+    height: 46px;
+    border: 1px solid blueviolet;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
 #addToDo {
     height: 50px;
     width: 50px;
