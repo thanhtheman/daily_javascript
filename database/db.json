@@ -1,0 +1,25 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "body": "Clean up the house",
+            "weight": "20",
+            "status": "Completed",
+            "tag": "chore"
+        },
+        {
+            "id": 2,
+            "body": "Learn HTML",
+            "weight": "30",
+            "status": "In Progress",
+            "tag": "work"
+        },
+        {
+            "id": 3,
+            "body": "Being Happy through out the day",
+            "weight": "50",
+            "status": "In Progress",
+            "tag": "personal"
+        }
+    ]
+}
