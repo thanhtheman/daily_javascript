@@ -1,8 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
 body {
     width: 50%;
     margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Helvetica,' sans-serif;
 }
+
+h1 {
+    color: blue;
+    font-family: 'Aboreto', sans-serif;
+}
+
+p {
+    color: chartreuse;
+}
+
+
+img[src*='mypic'] {
+    height: 250px;
+    width: auto;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background: aqua;
+    border-radius: 50%;
+}
+
+.circle:hover {
+    background-color: blue;
+}
+
+.button {
+    width: 105px;
+    height: 60px;
+    background-color: white;
+    border: 5px blue solid;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: red;
+}
+
 
 .container {
     width: 360px;
