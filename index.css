@@ -26,23 +26,52 @@ img[src*='mypic'] {
     height: 30px;
     background: aqua;
     border-radius: 50%;
+    margin: 10px 10px;
 }
 
 .circle:hover {
     background-color: blue;
 }
-
+.button_container {
+    height: 200px;
+    width: 1000px;
+    border: solid black;
+}
 .button {
-    width: 105px;
-    height: 60px;
+    width: 200px;
+    height: 190px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    padding-left: 100px;
+    padding-right: 200px;
+    text-transform: uppercase;
+    text-align: center;
     background-color: white;
     border: 5px blue solid;
     border-radius: 10px;
+    margin: 25px auto;
+}
+
+.close {
+    height: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: solid red;
 }
 
 .button:hover {
     background-color: red;
 }
+
+.background_image {
+    background-image: url('./js/pictures/paris.jpg');
+    height: 1200px;
+    width: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
 
 
 .container {
