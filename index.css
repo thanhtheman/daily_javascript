@@ -2,8 +2,9 @@
 
 body {
     width: 50%;
-    margin: 0 auto;
+    margin: auto;
     font-family: 'Helvetica,' sans-serif;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -65,13 +66,25 @@ img[src*='mypic'] {
 
 .background_image {
     background-image: url('./js/pictures/paris.jpg');
-    height: 1200px;
+    height: 800px;
     width: auto;
     text-align: center;
     text-transform: uppercase;
 }
 
+.parent {
+    border: 5px solid red;
+    margin-bottom: 100px;
+    width: 200px;
+    height: 150px;
+}
 
+.child {
+    border: 5px solid blue;
+    padding: 30px;
+    width: 250px;
+    height: 350px;
+}
 
 
 .container {

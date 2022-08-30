@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+body {
+    box-sizing: border-box;
+    width: 80%;
+    margin: 25px auto;
+    font-family: 'Aboreto';
+    border: 2px solid red;
+}
+
+h1, p {
+    border: 2px solid blue;
+    background-color: aqua;
+}
+
+.relative {
+    position: relative;
+    top: 150px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    left: 100px
+}
+
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+    background-color: brown;
+    top: 10px;
+    width: 50%;
+}
+
+li {
+    position: sticky;
+    top: 15px;
+    height: 300px;
+    background-color: blanchedalmond;
+    border: 1px solid violet;
+    margin-top: 10px;
+}
+
+.sticky {
+    position: sticky;
+    top: 10px;
+}
