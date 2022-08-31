@@ -19,7 +19,7 @@ h1, p {
     width: 80%;
     margin: auto;
     text-align: center;
-    left: 100px
+    left: 100px;
 }
 
 .absolute {
@@ -31,15 +31,17 @@ h1, p {
     background-color: brown;
     top: 10px;
     width: 50%;
+    z-index: 1;
 }
 
 li {
     position: sticky;
     top: 15px;
+    width: 150px;
     height: 300px;
     background-color: blanchedalmond;
     border: 1px solid violet;
-    margin-top: 10px;
+    float: right;
 }
 
 .sticky {
